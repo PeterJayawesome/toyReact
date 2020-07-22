@@ -1,0 +1,21 @@
+{
+  "name": "toyReact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "v_jppjiang <v_jppjiang@tencent.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "start": "webpack",
+    "build": "webpack"
+  }
+}
